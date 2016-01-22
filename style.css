@@ -1,0 +1,121 @@
+body {
+  margin:0;
+
+}
+/* image de fond pour le header*/
+header {
+    background-image: url("images/payments-banner-graphic.png");
+    height:405px;
+}
+.logo {
+  z-index: 1;
+  opacity: 0.5;
+  height: 25%;
+}
+/* texte logo*/
+h1{
+  color: white;
+  display: inline-block;
+
+}
+/* position du bouton dans le header */
+.butn {
+  display: block;
+  height: 55px;
+  width:230px;
+  text-align:center;
+  margin-left: 42%;
+}
+/* concerne les textes dans le header */
+.txt1 {
+  margin-left: 12%;
+  margin-top: 10%;
+}
+.txt2{
+  text-align: center;
+  color:white;
+  opacity: 0.5;
+}
+/*bloc entier de la première section*/
+.firstsection{
+  display: inline-flex;
+  margin-left: 10%;
+  height:405px ;
+}
+/* concerne les trois images de la première section */
+.bloc1{
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 15%;
+
+}
+.bloc2 {
+  margin-top: 5%;
+  margin-right: 9%;
+  margin-left: 15%;
+
+}
+.bloc3 {
+  margin-top: 5%;
+  margin-right: 9%;
+  margin-left: 15%;
+
+}
+/* barre verticale pour la première section */
+.hr {
+  width: 1px;
+  height: 260px;
+  background-color: violet;
+  position: absolute;
+  margin-left: 4%;
+  opacity: 0.5;
+}
+.hr1 {
+  width: 1px;
+  height: 260px;
+  background-color: violet;
+  position: absolute;
+  opacity: 0.5;
+}
+/* secondsection */
+.secondsection {
+  border: 1px solid grey;
+  height: 375px;
+  background-color: #F5F5F5;
+  /*font-family: Courier, sans serif;*/
+  font-size: 25px;
+
+}
+p { text-align: center;}
+.substitle {
+  font-size: 16px;
+}
+.thirdsection{
+  border: 1px solid grey;
+  height: 75px;
+  background-color: #696969;
+  /*font-family: Courier, sans serif;*/
+  font-size: 25px;
+}
+.quatre{
+    display: inline-block;
+}
+.quatresection{
+
+  height: 435px;
+  width: 70%;
+  background-color: #00FFFF;
+  /*font-family: Courier, sans serif;*/
+  font-size: 25px;
+
+}
+.img4 {
+  height: 435px;
+  margin-left: 13%;
+}
+.quatrebissection {
+  height: 405px;
+
+  font-size: 25px;
+
+}
